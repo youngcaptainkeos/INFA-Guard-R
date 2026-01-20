@@ -158,7 +158,7 @@ Leveraged part of code framework from [AgentSafe](https://github.com/junyuanM/Ag
 <h2 id="citation">📑 Citation</h2>
 
 ```bibtex
-@misc{lu2025isbench,
+@misc{,
       title={INFA-Guard: Mitigating Malicious Propagation via Infection-Aware Safeguarding in LLM-Based Multi-Agent Systems}, 
       author={Yijin Zhou, Xiaoya Lu, Dongrui Liu, Junchi Yan, and Jing Shao},
       year={2026},
