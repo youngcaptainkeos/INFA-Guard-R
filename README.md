@@ -8,7 +8,7 @@ This repository contains all codes for our **INFA-Guard** and also supports the 
 
 <h2 id="updates">🔥 Updates</h2>
 
-📆[2026-01] 🎈 Our paper and codes are released! 🎈
+📆[2026-01-22] 🎈 Our paper and codes are released! 🎈
 
 <h2 id="INFA-Guard">📄 Introduction</h2>
 
@@ -153,19 +153,19 @@ The agent-level Attack Success Rate (ASR) and task-level MAS Defense Success Rat
 
 <h2 id="citation">🙏 Acknowledge</h2>
 
-Leveraged part of code framework from [AgentSafe](https://github.com/junyuanM/Agentsafe), [AgentXposed](https://anonymous.4open.science/r/AgentXposed-F814), [MAS-Resilience](https://github.com/CUHK-ARISE/MAS-Resilience), and [G-Safeguard](https://github.com/wslong20/G-safeguard). Some of settings are adapted to our `MAS` framework.
+Leveraged part of code framework from [AgentSafe](https://github.com/junyuanM/Agentsafe), [AgentXposed](https://anonymous.4open.science/r/AgentXposed-F814), [MAS-Resilience](https://github.com/CUHK-ARISE/MAS-Resilience), and [G-Safeguard](https://github.com/wslong20/G-safeguard). Some of the settings are adapted to our `MAS` framework.
 
 <h2 id="citation">📑 Citation</h2>
 
 ```bibtex
-@misc{,
+@misc{zhou2026infaguardmitigatingmaliciouspropagation,
       title={INFA-Guard: Mitigating Malicious Propagation via Infection-Aware Safeguarding in LLM-Based Multi-Agent Systems}, 
-      author={Yijin Zhou, Xiaoya Lu, Dongrui Liu, Junchi Yan, and Jing Shao},
+      author={Yijin Zhou and Xiaoya Lu and Dongrui Liu and Junchi Yan and Jing Shao},
       year={2026},
-      eprint={},
+      eprint={2601.14667},
       archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/}, 
+      primaryClass={cs.MA},
+      url={https://arxiv.org/abs/2601.14667}, 
 }
 ```
 
