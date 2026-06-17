@@ -1,18 +1,17 @@
 #!/bin/bash
-export OPENAI_API_KEY=''
-export BASE_URL=''
+export OPENAI_API_KEY='local'
+export BASE_URL='http://127.0.0.1:1234/v1'
 
-export JUDGER_MODEL='gpt-4o-mini'
-export JUDGER_OPENAI_API_KEY=''
-export JUDGER_BASE_URL=''
+export JUDGER_MODEL='deepseek/deepseek-r1-0528-qwen3-8b'
+export JUDGER_OPENAI_API_KEY='local'
+export JUDGER_BASE_URL='http://127.0.0.1:1234/v1'
 
-
-export SAFEGUARD_MODEL='gpt-4o'
-export SAFEGUARD_BASE_URL=''
-export SAFEGUARD_OPENAI_API_KEY=''
+export SAFEGUARD_MODEL='deepseek/deepseek-r1-0528-qwen3-8b'
+export SAFEGUARD_BASE_URL='http://127.0.0.1:1234/v1'
+export SAFEGUARD_OPENAI_API_KEY='local'
 
 ATTACK_MODE=${1:-"PI"} # TA/MA/PI
-MODEL=${2:-"gpt-4o-mini"}
+MODEL=${2:-"deepseek/deepseek-r1-0528-qwen3-8b"}
 NAME=${3:-"gpt-4o-mini"}  # self-defined label for experiments
 DATASET=${4:-"csqa"} # PI: gsm8k/csqa/mmlu MA: memory_attack TA: tool_attack
 GUARD_TYPE=${5:-"ours"} # gsafeguard/ours/agentsafe/agentxposed-guide/agentxposed-kick/challenger/inspector
